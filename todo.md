@@ -114,7 +114,7 @@
  * MCL 적용
 ### MCL vs. EKF
  * 장점
-   * 구현이 쉽다
+   * 구현이 쉽
    * linear Gaussian states-based 가정을 하지 않아도 됨(모든 world를 Guassian으로 바라보지 않아도 되어서 다양한 접근 가능) - noise 측정
    * 메모리 및 resolution 제어 가능(리소스 사용 제한 가능)
   
