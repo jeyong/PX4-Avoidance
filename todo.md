@@ -15,6 +15,7 @@
  * Gazebo
  * QGC
  * docker
+ * mavros
 
 ## 알고리즘
  * local planner
@@ -61,7 +62,10 @@
  * 실행 flow
    * local_planner_stereo.launch 시작
  * 각 package.node 역할
- * 
+ * node간 통신
+ * class - local_planner
+ * class - avoidance
+
 ## local_planner_stereo.launch
  * local_planner.local_planner_node
  * rviz.rviz
