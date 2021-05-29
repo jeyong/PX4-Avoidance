@@ -30,6 +30,7 @@ https://www.youtube.com/watch?v=Qh5z7-PZCEs
    * 연결 방법
    * 각자 실행시키기
  * 알고리즘
+   * [3DVFH+](3dvfh.md)
    * 비행 예제 (Youtube로 만들기)
      * 무한루프 (설정값)
      * 특정 지점까지 가기 (설정값)
@@ -55,9 +56,9 @@ https://www.youtube.com/watch?v=Qh5z7-PZCEs
    * aovoidance library
    * local_planner 구조
    * nodelet
- * 실제 비행체 탑재
+ * [실제 비행체 탑재](nvidia.md)
    * NVIDIA + Realsense(ZED 카메라)
- * C++ for Avoidance
+ * [C++ for Avoidance](cpp.md)
    * 어떤 C++ 문법을 알아야할까?
    * 자주쓰는 패턴?
    
