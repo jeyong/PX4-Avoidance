@@ -9,22 +9,6 @@
 
  * local_planner_node
  * rviz
-## [stereo_image_proc](http://wiki.ros.org/stereo_image_proc)
- * stereo image
-   * 교정
-   * 차이
- * stereo camera driver <-> vision processing nodes
-   * 중간에 위치
- * 2개 camera에 대한 image_proc 담당
-   * 왜곡 없애고(undistortion) 색상 보정
-   * undistortion : rectification, image 변환
- * 2개 camera 사이의 차이를 계산
-   * [OpenCV blocking matching 알고리즘](https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html#stereobm)
- * camera에서 들어오는 이미지 확인 - stereo_view 이용
-   * http://wiki.ros.org/image_view#stereo_view
- * point cloud 생성
-   * rviz로 확인 가능
-   * pcl로 처리
 
 ## [rqt_reconfigure](http://mirror-ap.wiki.ros.org/rqt_reconfigure.html)
  * parameter 확인 및 수정
