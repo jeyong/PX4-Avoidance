@@ -3,9 +3,12 @@
  * PX4 Firmware
    * v1.11.1 ~ 1.11.2
    * commit : e0f6c220
+   * 2021. 6. 1. 버전
  * Avoidance
    * 2020. 11. 3.
    * commit : 8a957267
+   * 2021. 6. 1. 버전
+
 
 ## 설치
  * Ubuntu 18.04
